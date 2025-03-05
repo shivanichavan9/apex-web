@@ -4,6 +4,7 @@
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
   }
   
   .logo h1 {
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    width :100%;
   }
   
   .navbar ul {
@@ -40,4 +42,45 @@
     background-color: #555;
     border-radius: 5px;
   }
-  
+   /* Ensure the dropdown is hidden by default */
+ /* Ensure the dropdown menu is hidden by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Show the dropdown menu when hovering over the parent li */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style the dropdown items */
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
+
+/* Make the dropdown container position relative */
+.dropdown {
+  position: relative;
+}
+
+
+
+

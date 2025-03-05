@@ -1,0 +1,129 @@
+ /* Global Styles */
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f9f9; /* Adjusted for general background */
+}
+
+ 
+
+/* Positions container styling */
+.positions-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Positions title */
+.positions-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+/* Positions list styling */
+.positions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.position-item {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for positions */
+.position-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Position title and description */
+.position-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4c51bf;
+  margin-bottom: 0.5rem;
+}
+
+.position-description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+/* Apply button styling */
+.apply-button {
+  background-color: #4c51bf;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #434190;
+}
+
+/* Footer Styling */
+.footer {
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .career-title {
+    font-size: 2rem;
+  }
+
+  .career-description {
+    font-size: 1rem;
+  }
+
+  .positions-container {
+    padding: 1.5rem;
+  }
+
+  .position-item {
+    padding: 1rem;
+  }
+
+  .apply-button {
+    padding: 0.6rem 1rem;
+  }
+}

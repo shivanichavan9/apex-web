@@ -28,8 +28,6 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
-     
-
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
@@ -38,6 +36,8 @@ const HomePage = () => {
           <button>Get Started</button>
         </div>
       </section>
+
+       
 
       {/* Description Section */}
       <section>
