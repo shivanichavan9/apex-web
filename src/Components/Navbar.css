@@ -1,6 +1,6 @@
 /* src/components/Navbar.css */
 .header {
-    background-color: #333;
+    background-color: hsl(329, 94%, 66%);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -30,7 +30,7 @@
   }
   
   .navbar a {
-    color: #fff;
+    color: #2517f0;
     text-decoration: none;
     font-size: 1.1rem;
     padding: 5px 10px;
@@ -39,7 +39,7 @@
   }
   
   .navbar a:hover {
-    background-color: #555;
+    background-color: hsl(81, 78%, 51%);
     border-radius: 5px;
   }
    /* Ensure the dropdown is hidden by default */
@@ -47,8 +47,8 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: black;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color:  hsl(0, 6%, 20%);
+  box-shadow: 0 8px 16px  hsl(0, 4%, 11%);
   min-width: 160px;
   z-index: 1;
   list-style: none;
@@ -68,7 +68,7 @@
 
 .dropdown-menu li a {
   text-decoration: none;
-  color: #333;
+  color: hsl(0, 9%, 21%);
   display: block;
 }
 
@@ -81,6 +81,4 @@
   position: relative;
 }
 
-
-
-
+ 

@@ -1,0 +1,94 @@
+ /* 🔹 Full Page Styling */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* Full width */
+    background-image: url('  https://images.unsplash.com/photo-1620121684840-edffcfc4b878?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 🔹 Login Container */
+.login-container {
+    width: 100%; /* Full width */
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* 🔹 Login Title */
+.login-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* 🔹 Input Fields */
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-input:focus {
+    background: white;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+/* 🔹 Labels */
+.login-label {
+    font-size: 16px;
+    color: white;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* 🔹 Login Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #ff6b6b;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background: #e63946;
+    transform: scale(1.05);
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+    }
+}
+.login-form {
+    background-image: url('  https://watermark.lovepik.com/photo/50044/4337.jpg_wh1200.jpg'); /* Replace with your desired image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}

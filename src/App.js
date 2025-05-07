@@ -22,6 +22,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
  
  
+  
 
 const App = () => {
   return (
@@ -34,7 +35,7 @@ const App = () => {
           <Route path="/services/mobile-app-development" element={<MobileAppDevelopment />} />
           <Route path="/services/web-development" element={<WebDevelopment />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/about us" element={<AboutUs />} />
           <Route path="/investors" element={<Investors />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/products" element={<Products />} />
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+           
            
 
         </Routes>

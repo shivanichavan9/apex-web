@@ -1,0 +1,153 @@
+/* General Styles */
+.about-us-container {
+    width: 100vw;  /* Full width of viewport */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  /* Prevent horizontal scrolling */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    width: 100%;
+    height: 90vh;
+    background: url('https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+    max-width: 800px;
+  }
+  
+  .hero-button {
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .mission-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .mission-description {
+    font-size: 1.3rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Team Section */
+  .team-section {
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .team-member-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .team-member-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .team-member-role {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  /* History Section */
+  .history-section {
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  .history-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .history-description {
+    font-size: 1.3rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  .hero-section {
+    background: url('https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?cs=srgb&dl=pexels-pixabay-269077.jpg&fm=jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .mission-section {
+    background: url('https://www.shutterstock.com/shutterstock/photos/2276750979/display_1500/stock-photo-mission-team-building-or-hands-of-business-people-with-goals-support-or-motivation-for-success-or-2276750979.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: white;
+  }
+  
+  .team-section {
+    background: url(' https://plus.unsplash.com/premium_photo-1661277666101-01fb123f2a4c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVhbSUyMG1lbWJlcnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: white;
+  }
+  
+  .history-section {
+    background: url('https://media.istockphoto.com/id/157394944/photo/office-building-clock.jpg?s=612x612&w=0&k=20&c=2A_R0Cz2V6ytuWS3fK8E-Fm9-C2brVxgofHBtmcZjAM=') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: white;
+  }
+  

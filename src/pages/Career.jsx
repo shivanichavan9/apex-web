@@ -1,5 +1,6 @@
 import React from 'react';
 // Import custom CSS for the page styling
+ import './Career.css'
  
 
 const Careers = () => {

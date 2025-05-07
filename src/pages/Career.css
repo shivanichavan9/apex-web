@@ -1,0 +1,52 @@
+ /* Careers Page Styling */
+.careers-page {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+}
+
+/* Career Opportunities Section with Background Image */
+.careers-header {
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    background-image: url('  https://www.shutterstock.com/image-photo/success-business-concept-positive-double-600nw-2251022959.jpg'); /* Change URL to your preferred image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+ 
+
+/* Ensure Text Stays Above the Background */
+.careers-header * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Title Styling */
+.careers-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Subtitle Styling */
+.careers-subtitle {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.job-listing:nth-child(2) {
+    background-image: url(' https://static.vecteezy.com/system/resources/thumbnails/018/800/338/small/colorful-grunge-art-painting-effect-of-light-hot-colored-of-sunset-clouds-cloud-on-the-sunset-sky-background-burning-background-abstract-watercolor-grunge-background-design-vector.jpg'); /* Change URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.job-listing:nth-child(1) {
+    background-image: url(' https://static.vecteezy.com/system/resources/thumbnails/018/800/338/small/colorful-grunge-art-painting-effect-of-light-hot-colored-of-sunset-clouds-cloud-on-the-sunset-sky-background-burning-background-abstract-watercolor-grunge-background-design-vector.jpg'); /* Change URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

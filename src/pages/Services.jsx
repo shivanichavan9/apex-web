@@ -3,6 +3,8 @@ import img from '../Images/web.svg';
 import img2 from '../Images/app.svg';
 import img3 from '../Images/hosting.svg';
 import img4 from '../Images/consultation.svg';
+ 
+import '../pages/Services.css';
 
 const Services = () => {
     return (

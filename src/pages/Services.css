@@ -1,0 +1,34 @@
+ /* Services Page Background */
+.services-container {
+    background: url(' https://png.pngtree.com/background/20220714/original/pngtree-contact-us-for-banner-material-picture-image_1603180.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* Lighten the Overlay */
+ 
+
+/* Ensure content appears above the overlay */
+.services-section,
+.services-details {
+    position: relative;
+    z-index: 2;
+}
+
+/* Improve Text Visibility */
+.services-title,
+.services-subtitle,
+.service-card {
+    color: rgb(83, 56, 56); /* Change text color to white for better contrast */
+}
+
+/* Enhance Cards */
+.service-card {
+    background: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
